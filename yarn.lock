@@ -5786,6 +5786,20 @@ ignore@^5.1.1:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
+ilka-example@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/ilka-example/-/ilka-example-0.0.0.tgz#ca2234139830251065ae2423da5c98ba57defe2a"
+  integrity sha512-+scQZMBMQTJ/lSB4dkrDuc2t5QlYaQr80edLVQrr8r7+AcVfTsP+lyNdo5TQhUpDMqUWknMlelgD7jGzb7Aj5g==
+  dependencies:
+    ilka "link:../../../../AppData/Local/Yarn/Cache/v6/npm-ilka-example-0.0.0-ca2234139830251065ae2423da5c98ba57defe2a-integrity/node_modules"
+    react "link:../../../../AppData/Local/Yarn/Cache/v6/npm-ilka-example-0.0.0-ca2234139830251065ae2423da5c98ba57defe2a-integrity/node_modules/node_modules/react"
+    react-dom "link:../../../../AppData/Local/Yarn/Cache/v6/npm-ilka-example-0.0.0-ca2234139830251065ae2423da5c98ba57defe2a-integrity/node_modules/node_modules/react-dom"
+    react-scripts "link:../../../../AppData/Local/Yarn/Cache/v6/npm-ilka-example-0.0.0-ca2234139830251065ae2423da5c98ba57defe2a-integrity/node_modules/node_modules/react-scripts"
+
+"ilka@link:..":
+  version "0.0.0"
+  uid ""
+
 immer@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
@@ -9443,6 +9457,10 @@ react-dom@^16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
+"react-dom@link:../node_modules/react-dom":
+  version "0.0.0"
+  uid ""
+
 react-error-overlay@^6.0.7:
   version "6.0.10"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.10.tgz#0fe26db4fa85d9dbb8624729580e90e7159a59a6"
@@ -9513,6 +9531,10 @@ react-scripts@^3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
+"react-scripts@link:../node_modules/react-scripts":
+  version "0.0.0"
+  uid ""
+
 react@^16.13.1:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
@@ -9521,6 +9543,10 @@ react@^16.13.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
+
+"react@link:../node_modules/react":
+  version "0.0.0"
+  uid ""
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
